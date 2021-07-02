@@ -16,13 +16,13 @@ def Count(cap):
     return cnt
 n, m = map(int, input().split())
 a = list(map(int, input().split()))
-
+maxx=max(a)
 lt=1
 rt=sum(a)
 res=0
 while lt<=rt:
     mid = (lt+rt)//2
-    if Count(mid)<=m:
+    if mid>=maxx and Count(mid)<=m:
         res = mid
         rt = mid-1
     else: #용량이 작아서 더 큰 용량 필요

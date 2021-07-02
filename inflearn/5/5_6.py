@@ -21,3 +21,10 @@ while True:
         if man[0] == m:
             print(cnt)
             break
+
+
+
+"""
+5 2
+60 50 70 80 90
+"""

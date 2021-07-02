@@ -1,6 +1,6 @@
 # # 3-5 수들의 합
 # N 개의 수로 된 수열
-# i 부터 jㄲ 까지의 합이 m이되는 경우의 수
+# i 부터 j 까지의 합이 m이되는 경우의 수
 
 import sys
 sys.stdin = open("../4/input.txt", "rt")

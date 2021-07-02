@@ -1,7 +1,7 @@
 # 2-4 대표값
 
-import sys
-sys.stdin = open("input.txt", "rt", encoding="utf8")
+# import sys
+# sys.stdin = open("input.txt", "rt", encoding="utf8")
 
 n = int(input())
 a = list(map(int, input().split()))
@@ -24,6 +24,6 @@ print(aver, answer)
 # 10
 # 45 73 66 87 92 67 75 79 75 80
 
-r = 4.523
-print(round(r))
-print(abs(r))
+# r = 4.523
+# print(round(r))
+# print(abs(r))

@@ -7,16 +7,12 @@ def solution(logs):
     second = []
     for i in range(len(logs)):
 
-        second.append([logs[i][0:4],logs[i][5:6],logs[i][6:]])
-    second.sort(key=lambda x: (x[0]))
-    
-    second.sort(key=lambda x: (x[1]))
+        second.append(logs[i][0:4])
+
+    print(logs)
+    second = set(second)
     print(second)
-    # for i in range(len(second)):
-    #     for j in range(i+1, len(second)):
-    #         if second[i][0] != second[j][0]:
-
-
+    print(len(second))
 
     return answer
 
